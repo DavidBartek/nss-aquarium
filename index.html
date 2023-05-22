@@ -14,13 +14,9 @@
         <h1>Martin's Aquarium</h1>
     </header>
     <main>
-        <section>
-            <article class="fishes">
+        <article>
+            <section class="fishes">
                 <h2 class="fishes__header">Fish List</h2>
-                <aside class="fishes__tankcare">
-                    <h2>Tank Care</h2>
-                    <p>This is how you take care of tanx</p>
-                </aside>
                 <div class="fish">
                     <h3>Fish 1</h3>
                     <img>
@@ -51,25 +47,30 @@
                         <li>diet:</li>
                     </ul>
                 </div>
-            </article>
-            <article class="locations">
+                <aside class="fishes__tankcare">
+                    <h2>Tank Care</h2>
+                    <p>This is how you take care of tanx</p>
+                </aside>
+            </section>
+            <section class="locations">
                 <h2 class="locations__header">Harvesting Locations</h2>
                 <ul class="locations__list">
                     <li>Location 1</li>
                     <li>Location 2</li>
                     <li>Location 3</li>
                 </ul>
-            </article>
-            <article class="quotes">
+            </section>
+            <section class="quotes">
                 <h3 class="quotes__header">Fishy Quotes</h3>
                 <ul class="quotes__list">
                     <li>Fishy Fishy Fishy</li>
                     <li>Fishy Fishy Fishy</li>
                     <li>Fishy Fishy Fishy</li>
                 </ul>
-            </article>
-        </section>
+            </section>
+        </article>
     </main>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>

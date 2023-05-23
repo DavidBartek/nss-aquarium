@@ -5,13 +5,13 @@ export const FishList = () => {
     const fishes = getFish()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">' // the copy + pasted code here had "const" which is incorrect :)
+    let htmlString = '<article class="fish__list">' // the copy + pasted code here had "const" which is incorrect :)
 
     // Create HTML representations of each fish here
     for (const fish of fishes) {
 
         // Why is there a backtick used for this string? ==> string literal can interpolate variables (in this case, specific properties of fish objects)
-        htmlString += `<section class="fish card">
+        htmlString += `<section class="fish__card">
             <div><img  class="fish__image image--card" src="${fish.image}" /></div>
             <div class="fish__name">${fish.name}</div>
             <div class="fish__species">${fish.species}</div>

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #4dbedf;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: #2694ab;
+    border-radius: 5%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.header__header {}
+
+.header__subhead {
+    font-style: italic;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+
+.fish__list {
+    display: flex;
+}
+
+.fish__card {
+    flex: 200px;
+    background-color: #e59572;
+    font-style: italic;
+    border-radius: 25%;
+    padding: 1em;
+    margin: 1em;
+    min-width: 18em;
+    max-width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.fish__card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fish__name {
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.fish__image {
+    border-radius: 25%;
+    max-width: 75%;
+    height: auto;
+}
+
+.fish__misc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish__locations {
+    background-color: #ea7070;
+    border-radius: 25%;
+    padding: 1em;
+    margin: 1em;
+    box-sizing: content-box;
+    /* flex-grow: 1; */
+}
+
+.fish__quotes {
+    background-color: #ea7070;
+    border-radius: 20%;
+    padding: 1em;
+    margin: 1em;
+    box-sizing: content-box;
+    /* flex-grow: 1; */
+}
+
+.tankcare {
+    align-self: flex-start;
+    padding: 1em;
+    padding-bottom: 5em;
+    margin: 1em;
+    min-width: 18em;
+    max-width: 20em;
+    background-color: #fdc4b6;
+    border-radius: 25%;
+}
+
+.tankcare--header {
+    text-align: center;
+}
